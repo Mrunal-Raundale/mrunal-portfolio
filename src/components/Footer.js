@@ -14,7 +14,7 @@ function Footer() {
         MR<span>.</span>
       </a>
 
-      <p>© 2026 Mrunal Raundale — Built with the MERN stack</p>
+      <p>© 2026 Mrunal Raundale - Built with the MERN stack</p>
 
       <div className="footer-socials">
         {socials.map((s) => (

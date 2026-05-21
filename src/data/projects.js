@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    name: 'Instagram Clone — Backend',
+    name: 'Instagram Clone Backend',
     cat: 'Backend',
     desc:
       'A production-grade REST API replicating core Instagram functionality. Designed, tested, and documented entirely in Postman before frontend integration.',
@@ -41,13 +41,13 @@ const projects = [
     name: 'Dribbble Clone',
     cat: 'Frontend',
     desc:
-      'An exact UI replica of the Dribbble design showcase platform, built purely with HTML and CSS — no frameworks. Every section meticulously matched to the original.',
+      'An exact UI replica of the Dribbble design showcase platform, built purely with HTML and CSS, no frameworks. Every section meticulously matched to the original.',
     features: [
       'Pixel-precise Dribbble UI',
       'Responsive grid layout',
       'Hover animations & transitions',
       'Navigation & search bar',
-      'Zero frameworks — pure HTML/CSS',
+      'Zero frameworks pure HTML/CSS',
     ],
     tags: ['HTML', 'CSS'],
     emoji: '🏀',

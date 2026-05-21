@@ -26,7 +26,7 @@ function Hero() {
 
         <p className="hero-sub">
           I build full-stack web applications using MongoDB, Express.js, React,
-          and Node.js — from secure REST APIs to pixel-perfect frontends, tested
+          and Node.js from secure REST APIs to pixel-perfect frontends, tested
           end-to-end with Postman.
         </p>
 

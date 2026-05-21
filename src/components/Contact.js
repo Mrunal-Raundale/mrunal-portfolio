@@ -53,7 +53,7 @@ function Contact() {
       <div className="divider"></div>
 
       <div className="contact-grid">
-        {/* Left — info */}
+        {/* Left info */}
         <div className="contact-info">
           <p>
             Have a project in mind, want to collaborate on something MERN-related,
@@ -76,7 +76,7 @@ function Contact() {
           </div>
         </div>
 
-        {/* Right — form */}
+        {/* Right form */}
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-row">
             <div className="form-field">
