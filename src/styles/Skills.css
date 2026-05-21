@@ -1,0 +1,78 @@
+.skills-section {
+  background: var(--navy);
+}
+
+.skills-section .section-label { color: #7db4ff; }
+.skills-section .section-title  { color: #fff; }
+.skills-section .section-desc   { color: rgba(255, 255, 255, 0.5); }
+.skills-section .divider        { background: #7db4ff; }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.25rem;
+}
+
+.skill-group {
+  background: var(--navy-mid);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1.4rem;
+}
+
+.skill-group-title {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7db4ff;
+  margin-bottom: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+.skill-name-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skill-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.skill-name {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13px;
+}
+
+.skill-bar-wrap {
+  width: 90px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.skill-bar {
+  height: 100%;
+  border-radius: 3px;
+  width: 0;
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Bars animate to their data width once .skills-visible is added by React */
+.skills-visible .skill-bar.animated {
+  /* width is set inline via style prop in the component */
+}
