@@ -62,7 +62,7 @@ function Projects() {
       <div className="section-label">My work</div>
       <div className="section-title">Projects</div>
       <div className="section-desc">
-        Real applications I've built- covering backend APIs, frontend clones,
+        Real applications I've built covering backend APIs, frontend clones,
         and full-stack products.
       </div>
       <div className="divider"></div>

@@ -56,7 +56,7 @@ function Contact() {
         {/* Left info */}
         <div className="contact-info">
           <p>
-            Have a project in mind, want to collaborate on something MERN-related,
+            Have a project in mind, want to collaborate on something MERN related,
             or just want to say hi? I'd love to hear from you. Fill in the form or
             reach out directly.
           </p>

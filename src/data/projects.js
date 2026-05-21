@@ -4,7 +4,7 @@ const projects = [
     name: 'Instagram Clone Backend',
     cat: 'Backend',
     desc:
-      'A production-grade REST API replicating core Instagram functionality. Designed, tested, and documented entirely in Postman before frontend integration.',
+      'A production grade REST API replicating core Instagram functionality. Designed, tested, and documented entirely in Postman before frontend integration.',
     features: [
       'User registration & login with JWT',
       'Authentication & authorization middleware',
@@ -23,7 +23,7 @@ const projects = [
     name: 'Reels Replica',
     cat: 'Frontend',
     desc:
-      'A pixel-perfect Instagram Reels clone built with vanilla JavaScript DOM manipulation. Features a vertical full-screen video feed with buttery-smooth scroll snapping and custom controls.',
+      'A pixel perfect Instagram Reels clone built with vanilla JavaScript DOM manipulation. Features a vertical full-screen video feed with buttery-smooth scroll snapping and custom controls.',
     features: [
       'Smooth scroll-snap animation (JS DOM)',
       'Full-screen vertical feed layout',
